@@ -2,7 +2,7 @@
 
 i = int(raw_input("Vnesite število med 1 in 100: "))
 if i < 1 or i > 100:
-    print "Vnesli ste napačno število!"
+    print "Ukucali ste pogrešni broj!"
 else:
     for x in range(1,i+1):
         if x % 3 != 0 and x % 5 != 0:
