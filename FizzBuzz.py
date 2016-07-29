@@ -14,3 +14,11 @@ else:
         elif x % 5 == 0:
             print "buzz"
 
+
+def test(a=1,b=2,c=a+b)
+  puts "#{a},#{b},#{c}"
+end
+test        =>  1,2,3
+test 5      =>  5,2,7
+test 4, 6   =>  4,6,10
+test 3, 4, 6   =>  3,4,6
